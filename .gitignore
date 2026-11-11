@@ -1,0 +1,5 @@
+*.RData
+resultados/cache/
+resultados/modelos/
+resultados/predicoes/
+__pycache__/

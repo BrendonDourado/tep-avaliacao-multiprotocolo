@@ -1,0 +1,18 @@
+{
+ "python": "3.14.5",
+ "plataforma": "Windows-11-10.0.26300-SP0",
+ "processador": "AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD",
+ "nucleos_fisicos": 8,
+ "nucleos_logicos": 16,
+ "ram_gb": 31.93,
+ "threads": 8,
+ "numpy": "2.4.6",
+ "pandas": "3.0.3",
+ "sklearn": "1.9.1",
+ "xgboost": "3.4.1",
+ "sementes": [
+  42,
+  123,
+  2024
+ ]
+}

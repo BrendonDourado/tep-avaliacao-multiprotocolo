@@ -1,0 +1,25 @@
+{
+ "RL": {
+  "C": 1.0
+ },
+ "SVM": {
+  "alpha": 1e-05
+ },
+ "AD": {
+  "min_samples_leaf": 20
+ },
+ "RF": {
+  "max_features": 0.3,
+  "min_samples_leaf": 20,
+  "n_estimators": 200
+ },
+ "GB": {
+  "learning_rate": 0.05,
+  "max_leaf_nodes": 63
+ },
+ "XGB": {
+  "learning_rate": 0.1,
+  "max_depth": 8,
+  "n_estimators": 500
+ }
+}
