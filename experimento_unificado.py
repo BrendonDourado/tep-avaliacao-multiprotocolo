@@ -460,7 +460,7 @@ def ablacao():
     p = cfg["RF"]
     variantes += [("RF_profundidade30", sd, lambda sd=sd, p=p: RandomForestClassifier(
         n_estimators=p["n_estimators"], min_samples_leaf=p["min_samples_leaf"], max_features=p["max_features"],
-        max_depth=30, n_jobs=args.threads, random_state=sd)) for sd in SEEDS[:1]]
+        max_depth=30, n_jobs=args.threads, random_state=sd)) for sd in SEEDS]
     g = cfg["GB"]
     variantes += [("GB_sem_parada_antecipada", sd, lambda sd=sd, g=g: HistGradientBoostingClassifier(
         learning_rate=g["learning_rate"], max_leaf_nodes=g["max_leaf_nodes"], max_iter=200,

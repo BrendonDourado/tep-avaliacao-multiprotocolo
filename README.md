@@ -21,6 +21,7 @@ Repositório: https://github.com/BrendonDourado/tep-avaliacao-multiprotocolo
 | `resultados/voto_majoritario.csv`, `piloto_*.csv` | Avaliação por execução e efeito da unidade de divisão |
 | `resultados/ablacao.csv` | Ablações (um fator por vez) |
 | `resultados/ambiente.json` | Equipamento e versões das bibliotecas |
+| `resultados/log.txt` | Log de execução com carimbos de tempo: busca, congelamento das configurações (9/11/2026, 21h40) e, só depois, a predição do teste |
 | `artigo/` | PDF do artigo e figuras |
 
 ## Dados
