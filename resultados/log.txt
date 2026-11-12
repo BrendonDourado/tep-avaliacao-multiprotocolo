@@ -88,3 +88,19 @@ RF50 sem poda   0.0564  0.0051     10  0.0527  0.0600
 22:30:34   GB_sem_parada_antecipada s2024: F1 macro = 0.7878; MCC = 0.7746 (1175 s)
 22:30:34 ablação concluída
 22:30:35 fim
+15:36:04 ambiente: {'python': '3.14.5', 'plataforma': 'Windows-11-10.0.26300-SP0', 'processador': 'AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD', 'nucleos_fisicos': 8, 'nucleos_logicos': 16, 'ram_gb': 31.93, 'threads': 8, 'numpy': '2.4.6', 'pandas': '3.0.3', 'sklearn': '1.9.1', 'xgboost': '3.4.1', 'sementes': [42, 123, 2024]}
+15:36:08   RF_profundidade30 s42: já existe
+15:36:08   GB_sem_parada_antecipada s42: já existe
+15:36:08   GB_sem_parada_antecipada s123: já existe
+15:36:08   GB_sem_parada_antecipada s2024: já existe
+15:36:08 ablação concluída
+15:36:08 fim
+18:16:20 ambiente: {'python': '3.14.5', 'plataforma': 'Windows-11-10.0.26300-SP0', 'processador': 'AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD', 'nucleos_fisicos': 8, 'nucleos_logicos': 16, 'ram_gb': 31.93, 'threads': 8, 'numpy': '2.4.6', 'pandas': '3.0.3', 'sklearn': '1.9.1', 'xgboost': '3.4.1', 'sementes': [42, 123, 2024]}
+18:16:23   RF_profundidade30 s42: já existe
+19:28:00   RF_profundidade30 s123: F1 macro = 0.7584; MCC = 0.7687 (4211 s)
+20:37:46   RF_profundidade30 s2024: F1 macro = 0.7580; MCC = 0.7682 (4104 s)
+20:37:46   GB_sem_parada_antecipada s42: já existe
+20:37:46   GB_sem_parada_antecipada s123: já existe
+20:37:46   GB_sem_parada_antecipada s2024: já existe
+20:37:46 ablação concluída
+20:37:46 fim
