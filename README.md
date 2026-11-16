@@ -23,6 +23,7 @@ Repositório: https://github.com/BrendonDourado/tep-avaliacao-multiprotocolo
 | `resultados/ambiente.json` | Equipamento e versões das bibliotecas |
 | `resultados/log.txt` | Log de execução com carimbos de tempo: busca, congelamento das configurações (9/11/2026, 21h40) e, só depois, a predição do teste |
 | `artigo/` | PDF do artigo e figuras |
+| `material_suplementar/S1_trabalhos_tabela1.md` | Os treze trabalhos da Tabela 1: estratégia de busca, etapa, DOI e avaliação de cada critério |
 
 ## Dados
 
@@ -42,4 +43,4 @@ Ambiente usado: AMD Ryzen 7 5700X (8 núcleos), 32 GB, Windows 11, Python 3.14.5
 
 ## Protocolos P1, P2 e P3
 
-Os três protocolos independentes foram executados separadamente por cada autor; suas configurações estão descritas nas Tabelas 3 e 4 do artigo.
+Os três protocolos independentes foram executados separadamente por cada autor; suas configurações estão descritas nas Tabelas 3 e 4 do artigo. O código e os resultados de P3 estão em https://github.com/ricardoarfr/MEI0028-modelagem-e-simulacao.
