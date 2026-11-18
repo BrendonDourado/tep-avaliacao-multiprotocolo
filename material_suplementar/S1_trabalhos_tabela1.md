@@ -29,6 +29,19 @@ Legenda: **S** = atende ao critério; **N** = não atende; **L** = limítrofe.
 | 12 | Xu et al. (2022) | Applied Sciences, 12(17), art. 8868 | 10.3390/app12178868 | 2 | N | N | N | N |
 | 13 | Márquez-Vera et al. (2026) | Algorithms, 19(6), art. 485 | 10.3390/a19060485 | 2 | N | N | N | N |
 
-**Totais (Tabela 1 do artigo):** divisão por execução 4/13; rótulo pré-falha declarado 3/13 (4/13 se o caso limítrofe de Khan et al. for aceito); MCC 0/13; custo de inferência e memória para todas as famílias no mesmo equipamento 0/13 (três trabalhos reportam custo parcial: Lyu, Koçak e Khan).
+## Quinto critério: RF, SVM ou regressão logística sob divisão por execução, em classificação multiclasse (0/13)
+
+O critério exige, ao mesmo tempo, (i) divisão declarada por execução, (ii) tarefa multiclasse e (iii) valores reportados de Random Forest, SVM ou regressão logística. Os nove trabalhos sem divisão por execução não o atendem por (i). Os quatro que dividem por execução falham por (ii) ou (iii):
+
+| Trabalho | Tarefa | Modelos com valores reportados | Por que não atende |
+| --- | --- | --- | --- |
+| Khan et al. (2026) | **binária** (normal contra todas as falhas agrupadas) | CRNN proposto; LR, SVM, RF, LightGBM, LSTM e CNN-LSTM como referência | Tem os modelos e a divisão por execução, mas a tarefa não é multiclasse |
+| Koçak et al. (2026) | multiclasse, 21 condições | XGBoost | Afirma que o XGBoost superou RF e SVM, mas não apresenta os valores desses modelos |
+| Lyu et al. (2026) | multiclasse, 18 classes (exclui as falhas 3, 9 e 15) | XGBoost e seis arquiteturas profundas | Não avalia RF, SVM nem regressão logística |
+| Avanashilingam e Pandiyath Velayudhan (2026) | multiclasse, 21 classes | LightGBM | Não avalia RF, SVM nem regressão logística |
+
+Fonte da verificação: `05-TABELA-COMPARABILIDADE.md` e `06-BUSCA-DIRIGIDA-RIETH.md` no repositório do protocolo P3.
+
+**Totais (Tabela 1 do artigo):** divisão por execução 4/13; rótulo pré-falha declarado 3/13 (4/13 se o caso limítrofe de Khan et al. for aceito); MCC 0/13; custo de inferência e memória para todas as famílias no mesmo equipamento 0/13 (três trabalhos reportam custo parcial: Lyu, Koçak e Khan); RF, SVM ou regressão logística sob divisão por execução em classificação multiclasse 0/13.
 
 **Critério do rótulo pré-falha:** conta apenas quando o texto declara o rótulo atribuído ou a exclusão das amostras anteriores à falha no teste. Descrever que "as primeiras 160 amostras são normais" não conta.
